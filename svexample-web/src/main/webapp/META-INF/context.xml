@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+
+	<Resource name="jdbc/svexample-ds" auth="Container" type="javax.sql.DataSource"
+		driverClassName="org.h2.Driver" url="jdbc:h2:file:svexample.db;MODE=Oracle;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE" username="sa"
+		password="" maxActive="20" maxIdle="10" maxWait="-1"/>
+
+</Context>

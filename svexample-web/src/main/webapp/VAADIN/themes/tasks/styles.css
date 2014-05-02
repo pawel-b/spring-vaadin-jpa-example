@@ -1,0 +1,59 @@
+@import "../reindeer/legacy-styles.css";
+
+.v-gridlayout-slot {
+    
+}
+
+.v-horizontallayout-header {
+    background: #eee;
+    color: #002f6b;
+}
+
+.v-link-menu-item a:visited,.v-link-menu-item a:link span,.v-link-menu-item a:visited span {
+    color: #fff;
+}
+
+.v-label-menu-item {
+    padding: 5px;
+}
+
+.v-link-menu-item, .v-link-menu-item-logout {
+    padding: 5px;
+    width: 100px;
+    background: #007bc1;
+    text-align: center;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.v-link-menu-item:hover, .v-link-menu-item-logout:hover {
+    background: #004ba1;
+}
+
+.v-link-menu-item-selected {
+    background: #004ba1;
+}
+
+.v-link-menu-item span, .v-link-menu-item-logout span {
+    text-decoration: none;
+}
+
+.warning {
+    color: yellow;
+}
+
+.error {
+    color: red;
+}
+
+.holiday {
+    color: red;
+}
+
+.row-even {
+    background-color: #ddd;
+}
+
+.row-odd {
+    background-color: #eee;
+}

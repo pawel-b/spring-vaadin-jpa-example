@@ -1,0 +1,19 @@
+<configuration>
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <!-- log by method is not fast. remove it later -->
+		<encoder>
+			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36}/%method %msg%n
+			</pattern>
+		</encoder>
+	</appender>
+
+    <logger name="ru.xpoft" level="DEBUG"/>
+    <logger name="org.springframework" level="INFO"/>
+    <logger name="org.hibernate.SQL" level="DEBUG"/>
+    <logger name="org.hibernate.type.descriptor.sql" level="TRACE"/>
+    <logger name="org.hibernate.envers" level="DEBUG"/>
+
+    <root level="INFO">
+		<appender-ref ref="STDOUT" />
+	</root>
+</configuration>
